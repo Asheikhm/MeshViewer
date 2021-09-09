@@ -142,6 +142,33 @@ MeshViewer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeshViewer.dir/build.make CMakeFiles/MeshViewer.dir/build
 .PHONY : MeshViewer/fast
 
+ThirdParty/glad/glad.o: ThirdParty/glad/glad.c.o
+
+.PHONY : ThirdParty/glad/glad.o
+
+# target to build an object file
+ThirdParty/glad/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeshViewer.dir/build.make CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o
+.PHONY : ThirdParty/glad/glad.c.o
+
+ThirdParty/glad/glad.i: ThirdParty/glad/glad.c.i
+
+.PHONY : ThirdParty/glad/glad.i
+
+# target to preprocess a source file
+ThirdParty/glad/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeshViewer.dir/build.make CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.i
+.PHONY : ThirdParty/glad/glad.c.i
+
+ThirdParty/glad/glad.s: ThirdParty/glad/glad.c.s
+
+.PHONY : ThirdParty/glad/glad.s
+
+# target to generate assembly for a file
+ThirdParty/glad/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MeshViewer.dir/build.make CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.s
+.PHONY : ThirdParty/glad/glad.c.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MeshViewer"
+	@echo "... ThirdParty/glad/glad.o"
+	@echo "... ThirdParty/glad/glad.i"
+	@echo "... ThirdParty/glad/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
