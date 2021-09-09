@@ -1,0 +1,3 @@
+/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/build/CMakeFiles/rebuild_cache.dir
+/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/build/CMakeFiles/edit_cache.dir
+/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/build/CMakeFiles/MeshViewer.dir
