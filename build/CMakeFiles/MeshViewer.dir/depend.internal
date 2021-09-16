@@ -8,5 +8,6 @@ CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o
 CMakeFiles/MeshViewer.dir/src/main.cpp.o
  ../ThirdParty/KHR/khrplatform.h
  ../ThirdParty/glad/glad.h
+ ../include/shaders.h
  /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp
  /usr/local/include/GLFW/glfw3.h

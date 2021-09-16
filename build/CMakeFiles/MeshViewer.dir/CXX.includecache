@@ -18,6 +18,18 @@ stdint.h
 KHR/khrplatform.h
 -
 
+../include/shaders.h
+glad/glad.h
+-
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+
 /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp
 iostream
 -
@@ -25,6 +37,8 @@ glad/glad.h
 -
 GLFW/glfw3.h
 -
+shaders.h
+/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/shaders.h
 
 /usr/local/include/GLFW/glfw3.h
 stddef.h
