@@ -79,28 +79,28 @@ include CMakeFiles/MeshViewer.dir/flags.make
 CMakeFiles/MeshViewer.dir/src/main.cpp.o: CMakeFiles/MeshViewer.dir/flags.make
 CMakeFiles/MeshViewer.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MeshViewer.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MeshViewer.dir/src/main.cpp.o -c /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MeshViewer.dir/src/main.cpp.o -c /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp
 
 CMakeFiles/MeshViewer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MeshViewer.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp > CMakeFiles/MeshViewer.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp > CMakeFiles/MeshViewer.dir/src/main.cpp.i
 
 CMakeFiles/MeshViewer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MeshViewer.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp -o CMakeFiles/MeshViewer.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/src/main.cpp -o CMakeFiles/MeshViewer.dir/src/main.cpp.s
 
 CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o: CMakeFiles/MeshViewer.dir/flags.make
 CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o: ../ThirdParty/glad/glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o -c /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.o -c /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c
 
 CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c > CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c > CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.i
 
 CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c -o CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/afsanehsheikhmiri/Documents/Afsaneh/MeshViewer/ThirdParty/glad/glad.c -o CMakeFiles/MeshViewer.dir/ThirdParty/glad/glad.c.s
 
 # Object files for target MeshViewer
 MeshViewer_OBJECTS = \
